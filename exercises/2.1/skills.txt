@@ -5,5 +5,8 @@ O que eu vou aprender na Trybe:
 - Git
 -HTML
 -CSS
+Soft Skills
+Raciocínio Lógico
 Ciência da Computação
 Internet
+
