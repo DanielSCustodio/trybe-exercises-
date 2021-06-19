@@ -1,0 +1,42 @@
+body{
+		background-color:dimgray }
+div:hover{
+		border: solid 1px greenyellow;
+}
+
+.div-1{
+		background-color: ivory;
+		color: red;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-style: italic;
+}
+
+.div-2{
+	background-color: chocolate;
+	color:teal;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-style: initial;
+}
+.div-3{
+		background-color:lightpink;
+		color:khaki;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		font-style: italic;
+		text-transform: uppercase;
+		min-height: 100px;
+}
+.div-4{
+		background-color: royalblue;
+		color:lightcoral;
+		font-family: fantasy;
+		font-style: initial;
+		text-transform: unset;
+}
+.div-5{
+		background-color:steelblue;
+		color: black;
+		font-family: monospace;
+		font-style: italic;
+		text-transform: capitalize;
+}
+
