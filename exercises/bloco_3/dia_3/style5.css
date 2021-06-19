@@ -1,0 +1,55 @@
+body{
+    background-color:darkgrey;
+}
+
+li{
+    font-size: 20px;
+}
+li em{
+    font-weight: bold;
+    
+}
+
+ol.bg-amarelo li{
+    background-color: yellow;
+}
+
+.font-verde{
+    color: green;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.txt-vermelho{
+    color: red;
+}
+.txt-vermelho em{
+    font-size: 40px;
+    border: solid 1px black;
+}
+.txt-azul {
+    color: blue;
+}
+.bg-rosa{
+    background-color: pink;
+}
+
+ul.tema li:hover{
+    font-weight: bold;
+}
+
+li.txt-laranja a:hover{
+    color:orange;
+}
+
+li.txt-verde a:hover{
+    color:green;
+}
+li.txt-preta a:hover{
+    color:black;
+}
+li.txt-amarelo a:hover{
+    color:yellow;
+}
