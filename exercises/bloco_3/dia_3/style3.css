@@ -1,0 +1,16 @@
+h1, p{
+    text-align: center;
+}
+
+li:hover{
+    background-color: rebeccapurple;
+}
+
+li:active{
+    background-color:rosybrown;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul, ol{
+    list-style: none;
+}
