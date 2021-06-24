@@ -9,3 +9,8 @@ let total = 0;
 total += numbers[index];
 }*/
 
+/*for (let n of numbers) {
+	total += n;
+}
+console.log(total);
+*/
