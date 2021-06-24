@@ -14,3 +14,21 @@ total += numbers[index];
 }
 console.log(total);
 */
+/* 
+for (let index = 0; index < numbers.length; index++) {
+	total += numbers[index]
+}
+let media = total / numbers.length;
+console.log();*/
+/*
+for (let index = 0; index < numbers.length; index++) {
+	total += numbers[index]
+}
+let media = total / numbers.length;
+if (media > 20) {
+	console.log("valor maior que 20");
+}else if (media === 20){
+	console.log("valor igual a 20");
+}else{
+	console.log("Valor menor que 20");
+} */
