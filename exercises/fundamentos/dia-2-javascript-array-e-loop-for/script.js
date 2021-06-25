@@ -62,3 +62,11 @@ for (let index = 0; index < numbers.length; index+=1) {
 }
 
 console.log(menor); */
+
+
+/*n = [];
+for (let index = 1; index <= 25; index+= 1) {
+	n[index] = index;
+	console.log(n[index]);
+}
+ */
