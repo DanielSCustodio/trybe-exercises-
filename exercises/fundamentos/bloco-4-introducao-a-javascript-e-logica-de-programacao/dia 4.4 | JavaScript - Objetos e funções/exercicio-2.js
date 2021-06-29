@@ -83,23 +83,46 @@
 
 // numeroRepetido(n);
 	
-numero =10;
-function somatorio(n){
-	let str = "";
-	let soma =0;
-	for (let index = 1; index <=n; index++) {
-		soma += index;
-		if (index != n) {
-			str+=[index]+"+";
-		}else{
-			str+=[index]+" = "
-		}
+// numero =10;
+// function somatorio(n){
+// 	let str = "";
+// 	let soma =0;
+// 	for (let index = 1; index <=n; index++) {
+// 		soma += index;
+// 		if (index != n) {
+// 			str+=[index]+"+";
+// 		}else{
+// 			str+=[index]+" = "
+// 		}
 	
-		}
-		console.log(str+soma);
-}
+// 		}
+// 		console.log(str+soma);
+// }
 
-somatorio(numero);
+// somatorio(numero);
+
+
+// function verificaFimPalavra(word, ending){
+// 	let palavraPrincipal = word.split("").reverse().join("");
+// 	let palavraFinal = ending.split("").reverse().join("");
+// 	let desigualdade =0;
+
+// 	for (let index = 0; index < palavraFinal.length; index++) {
+// 		if (palavraFinal[index]!== palavraPrincipal[index]) {
+// 			desigualdade =+1;
+// 		}
+// 	}
+
+// 	if (desigualdade>0) {
+// 		console.log("false");
+// 	}else{
+// 		console.log("true");
+// 	}
+		
+
+	
+//  }
+// verificaFimPalavra("joaofernando","fernan");
 
 
 
