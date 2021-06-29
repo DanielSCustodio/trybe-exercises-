@@ -19,6 +19,17 @@
 // 	}
 // }
 // console.log(indiceMaior);
+
+// let numbers = [2, 4, 6, 7, 10, 0, -3];
+// let menor = numbers[0];
+// let indiceMenor;
+// for (let index=0; index < numbers.length; index += 1){
+// 	if (numbers[index] < menor) {
+// 		menor = numbers[index];
+// 		indiceMenor = index
+// 	}
+// }
+// console.log(indiceMenor);
 	
 
 
