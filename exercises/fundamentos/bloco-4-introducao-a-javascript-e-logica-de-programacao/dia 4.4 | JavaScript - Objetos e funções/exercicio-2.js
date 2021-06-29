@@ -30,7 +30,21 @@
 // 	}
 // }
 // console.log(indiceMenor);
-	
+
+// let nome = ['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'];
+// let maior = nome[0].length;
+// let maiorNome;
+
+// for (let index = 0; index < nome.length; index+=1) {
+// 	if (nome[index].length > maior){
+// 		maior = nome[index].length;
+// 		maiorNome =  nome[index]
+// 	}
+
+// }
+// console.log(maiorNome);
+
+
 
 
 
