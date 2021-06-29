@@ -45,6 +45,38 @@
 // console.log(maiorNome);
 
 
+let numbers = [2, 3, 2, 5, 8, 2, 3];
+let igual =0;
+let numeroRepetido= 0;
+let indexGanhador =0;
+let vezesRepete =0;
+
+for (let index = 0; index < numbers.length; index+=1) {
+	for (let i in numbers) {
+		if (numbers[index] === numbers[i]) {
+			igual +=1;
+			vezesRepete = igual;
+			}
+		}	
+		igual =0;
+		if (vezesRepete > numeroRepetido) {
+			indexGanhador = numbers[index];
+			numeroRepetido = vezesRepete;
+			vezesRepete =0;
+		
+		}
+	}console.log(indexGanhador);
+
+	
+
+
+
+
+	
+	
+
+
+
 
 
 
