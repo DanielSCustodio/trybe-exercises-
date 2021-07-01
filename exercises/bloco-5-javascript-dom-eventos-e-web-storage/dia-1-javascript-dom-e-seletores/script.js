@@ -17,7 +17,7 @@ function mudaP() {
 
 	for (let index = 0; index < mudaTag.length; index +=1) {
 		mudaTag[index].innerText='Qualquer coisa';
-		mudaTag[index].style.textTransform="lowercase";
+		mudaTag[index].style.textTransform="uppercase";
 	}
 
 }
@@ -34,8 +34,15 @@ function corrigeH1() {
 	document.getElementsByTagName('h1')[0].innerText="Exercício 5.1 - JavaEscripit"
 }
 
+function mostraP() {
+	let mudaTag = document.getElementsByTagName('p');
+	for (let index = 0; index < mudaTag.length; index +=1) {
+	let result = mudaTag[index].innerText;
+	console.log(result);
+	}
+}
 
-
+mostraP();
 corrigeH1();
 mudaCor();
 mudaP();
