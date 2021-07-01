@@ -22,8 +22,13 @@ function mudaP() {
 }
 
 function mudaCor() {
-	document.getElementById('main-content').style.background="green"
+	document.getElementById('main-content').style.background="#4ca46d";
+}
+
+function mudaColor() {
+	document.querySelector('.center-content').style.background="white";
 }
 
 mudaCor();
 mudaP();
+mudaColor();
