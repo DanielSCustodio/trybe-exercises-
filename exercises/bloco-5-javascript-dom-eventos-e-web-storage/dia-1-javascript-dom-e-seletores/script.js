@@ -19,6 +19,7 @@ function mudaP() {
 		mudaTag[index].innerText='Qualquer coisa';
 	
 	}
+
 }
 
 function mudaCor() {
@@ -29,6 +30,12 @@ function mudaColor() {
 	document.querySelector('.center-content').style.background="white";
 }
 
+function corrigeH1() {
+	document.getElementsByTagName('h1')[0].innerText="Exercício 5.1 - JavaEscripit"
+}
+
+
+corrigeH1();
 mudaCor();
 mudaP();
 mudaColor();
