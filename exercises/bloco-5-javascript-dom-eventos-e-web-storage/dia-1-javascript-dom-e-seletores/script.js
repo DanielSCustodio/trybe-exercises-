@@ -17,7 +17,7 @@ function mudaP() {
 
 	for (let index = 0; index < mudaTag.length; index +=1) {
 		mudaTag[index].innerText='Qualquer coisa';
-	
+		mudaTag[index].style.textTransform="lowercase";
 	}
 
 }
@@ -33,6 +33,7 @@ function mudaColor() {
 function corrigeH1() {
 	document.getElementsByTagName('h1')[0].innerText="Exercício 5.1 - JavaEscripit"
 }
+
 
 
 corrigeH1();
