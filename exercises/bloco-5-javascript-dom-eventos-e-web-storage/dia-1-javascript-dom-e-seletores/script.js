@@ -22,8 +22,8 @@ function mudaP() {
 }
 
 function mudaCor() {
-	
+	document.getElementById('main-content').style.background="green"
 }
 
-
+mudaCor();
 mudaP();
