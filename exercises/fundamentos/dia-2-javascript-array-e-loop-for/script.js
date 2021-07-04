@@ -67,6 +67,6 @@ console.log(menor); */
 n = [];
 for (let index = 1; index <= 25; index+= 1) {
 	n[index] = index;
-	console.log(n[index]/2);
+	console.log(n[index]*2);
 }
 
