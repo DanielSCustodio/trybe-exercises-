@@ -36,7 +36,7 @@ function corrigeH1() {
 
 function mostraP() {
 	let mudaTag = document.getElementsByTagName('p');
-	for (let index = 0; index < mudaTag.length; index +=1) {
+	for (let index = 0; index < mudaTag.length; index +=  1) {
 	let result = mudaTag[index].innerText;
 	console.log(result);
 	}
