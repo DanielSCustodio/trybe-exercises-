@@ -16,3 +16,7 @@ let p = document.createElement('p');
 p.innerText ='Algum texto';
 divTwo.appendChild(p);
 
+let divThree = document.createElement('div');
+divThree.className = 'left-content';
+divOne.appendChild(divThree)
+
