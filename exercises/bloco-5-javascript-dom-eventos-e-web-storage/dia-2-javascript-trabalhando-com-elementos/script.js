@@ -11,3 +11,8 @@ let divOne = document.querySelector('.main-content');
 let divTwo = document.createElement('div');
 divTwo.className='center-content';
 divOne.appendChild(divTwo);
+
+let p = document.createElement('p');
+p.innerText ='Algum texto';
+divTwo.appendChild(p);
+
