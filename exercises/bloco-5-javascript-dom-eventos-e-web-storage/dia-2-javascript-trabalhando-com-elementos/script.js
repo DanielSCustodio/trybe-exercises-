@@ -20,3 +20,7 @@ let divThree = document.createElement('div');
 divThree.className = 'left-content';
 divOne.appendChild(divThree)
 
+let divFour = document.createElement('div');
+divFour.className = 'right-content';
+divOne.appendChild(divFour)
+
