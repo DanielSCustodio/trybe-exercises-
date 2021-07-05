@@ -24,3 +24,8 @@ let divFour = document.createElement('div');
 divFour.className = 'right-content';
 divOne.appendChild(divFour)
 
+let img = document.createElement('img');
+img.className ='small-image';
+img.src='https://picsum.photos/200';
+divThree.appendChild(img);
+
