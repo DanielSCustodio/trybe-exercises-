@@ -1,5 +1,6 @@
 let body = document.querySelector('body');
 let tag = document.createElement('h1');
+tag.className='title';
 tag.innerText = 'Exercício 5.2 - JavaScript';
 body.appendChild(tag);
 
@@ -37,5 +38,10 @@ for (let i = 0; i < listItens.length; i += 1) {
 	li.innerText=item;
 	ul.appendChild(li);
 }
-
 divFour.appendChild(ul);
+
+for (let index = 0; index < 3; index +=1 ) {
+	let h3 = document.createElement('h3');
+	div.appendChild(h3)
+}
+
