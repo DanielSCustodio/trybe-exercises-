@@ -43,5 +43,11 @@ divFour.appendChild(ul);
 for (let index = 0; index < 3; index +=1 ) {
 	let h3 = document.createElement('h3');
 	div.appendChild(h3)
+	h3.className ='description';
 }
 
+let leftContent = document.querySelector('.left-content')
+div.removeChild(leftContent);
+
+ul.lastChild.remove();
+ul.lastChild.remove();
