@@ -46,3 +46,5 @@ for (let index = 0; index < 3; index +=1 ) {
 	h3.className ='description';
 }
 
+let leftContent = document.querySelector('.left-content')
+div.removeChild(leftContent);
