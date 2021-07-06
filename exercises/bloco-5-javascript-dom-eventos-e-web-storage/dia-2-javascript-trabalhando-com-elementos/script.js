@@ -48,3 +48,6 @@ for (let index = 0; index < 3; index +=1 ) {
 
 let leftContent = document.querySelector('.left-content')
 div.removeChild(leftContent);
+
+ul.lastChild.remove();
+ul.lastChild.remove();
