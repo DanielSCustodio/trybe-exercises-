@@ -4,6 +4,9 @@ for (let index = 0; index < dezDaysList.length; index += 1) {
 	let li = document.createElement('li');
 	li.innerText = dezDaysList[index];
 	li.className = 'day';
+	if (dezDaysList[index]===24| dezDaysList[index]===25| dezDaysList[index]===31) {
+		li.className = 'holiday';
+	}
 	ul.appendChild(li);
 	
 }
