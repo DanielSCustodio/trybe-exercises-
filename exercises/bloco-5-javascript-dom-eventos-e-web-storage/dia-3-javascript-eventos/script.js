@@ -16,11 +16,14 @@ function createDate(arrayDay){
 	}
 }
 
-function holiday(feriados){
-	let btnHoliday = document.createElement('button');
-	let divButton = document.querySelector('.buttons-container');
-	btnHoliday.innerHTML ="id ='btn-holiday'";
-	divButton.appendChild(divButton);
+function holiday(buttonName){
+	let btnHoliday = document.createElement("button");
+	let nomeId = 'btn-holiday';
+	btnHoliday.innerHTML = buttonName;      //recebendo o texto que está como parametro na função, será o texto do botão   
+	btnHoliday.id = nomeId;
+	
+	let divButtons = document.querySelector('.buttons-container');
+	divButtons.appendChild(btnHoliday);
 
 }
 
@@ -39,4 +42,5 @@ function createDaysOfTheWeek() {
 
 createDaysOfTheWeek();
 createDate(dezDaysList);
+holiday('Feriados');
   // Escreva seu código abaixo.
