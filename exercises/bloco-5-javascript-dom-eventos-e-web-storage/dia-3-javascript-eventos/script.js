@@ -13,10 +13,16 @@ function createDate(arrayDay){
 			li.className = 'friday';
 		}
 		ul.appendChild(li);
-	
-}
+	}
 }
 
+function holiday(feriados){
+	let btnHoliday = document.createElement('button');
+	let divButton = document.querySelector('.buttons-container');
+	btnHoliday.innerHTML ="id ='btn-holiday'";
+	divButton.appendChild(divButton);
+
+}
 
 function createDaysOfTheWeek() {
 	const weekDays = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado']
