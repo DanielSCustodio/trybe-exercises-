@@ -19,3 +19,13 @@
 	background-color: blue;
 	margin-right: 5px;
 }
+.btn{
+	background-color: black; 
+  border: solid 1px darkcyan;
+  color: white;
+  padding: 10px 30px;
+	margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}

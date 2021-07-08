@@ -19,7 +19,6 @@ function createBoxTxt() {
 		//++++++++++++++++++++++++
 		let divtxt = document.getElementById('color-txt');
 		divtxt.appendChild(div)
-
 	}
 }
 
@@ -41,12 +40,12 @@ function selectBackground() {
 		}
 	}
 }
-function selectTxt(){
-	
-	let div = document.getElementById('color-txt');
-	div.addEventListener('click', mudaCor);
 
-	function mudaCor(element) {
+function selectTxt(){
+	let div = document.getElementById('color-txt');
+	div.addEventListener('click', changeColor);
+
+	function changeColor(element) {
 		let txt = document.getElementById('txt');
 		let getClass = element.target.className;
 		if(getClass === 'colorRed box'){
@@ -60,7 +59,30 @@ function selectTxt(){
 		}
 	}
 }
+
+
+function selectSize(){
+	let div = document.getElementById('font-size');
+	div.addEventListener('click', changeSize);
+
+	function changeSize(element) {
+		let txt = document.getElementById('txt');
+		let getClass = element.target.className;
+		if(getClass === 'btn fifteen'){
+			txt.style.fontSize ='15px';
+		}
+		if(getClass === 'btn thirty'){
+			txt.style.fontSize ='30px';
+		}
+		if(getClass === 'btn forty-five'){
+			txt.style.fontSize ='45px';
+		}
+		
+	}
+}
+
 selectTxt()
 createBoxBg();
 createBoxTxt();
 selectBackground();
+selectSize();
