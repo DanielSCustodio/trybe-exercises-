@@ -1,5 +1,5 @@
 window.onload = function(){
-	startPreference();
+	 	startPreference();
 	function createBoxBg() {
 		let color = ['colorRed', 'colorGreen', 'colorBlue'];
 		for (let index = 0; index < color.length; index += 1) {
