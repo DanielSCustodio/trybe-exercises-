@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<form action="" method="GET">
+		<fieldset>
+			<label for="nome">Nome</label>
+			<input type="text" name="nome" required id="nome">
+			<br>
+			<label for="email">E-mail</label>
+			<input type="email" name="email" required id="email">
+			<br>
+			<label for="cpf">CPF</label>
+			<input type="text" name="cpf" required id="cpf">
+			<br>
+			<label for="endereco">Endereço</label>
+			<input type="text" name="endereco" required id="endereco">
+			<br>
+			<label for="cidade">Cidade</label>
+			<input type="text" name="cidade" required id="cidade">
+			<br>
+			<label for="estado">Estado</label>
+			<select name="estado" id="estado"></select>
+			<br>
+			<p>Tipo</p>
+			<label for="casa">
+				<input type="radio" name="tipo" id="casa" value="casa" required>Casa
+			</label>
+			<label for="ap">
+				<input type="radio" name="tipo" id="ap" value="apartamento" required>Apartamento
+			</label>
+		</fieldset>
+		<fieldset>
+			<label for="cv"> Resumo do currículo 
+				<textarea name="cv" id="cv" cols="30" rows="10" required></textarea>
+			</label>
+			<br>
+			<label for="cargo">Cargo</label>
+			<input type="text" name="cargo" id="cargo" required>
+			<br>
+			<label for="data-inicio">Data de início</label>
+			<input type="date" name="data-inicio" id="data-inicio" required>
+			<br>
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Limpar">
+
+		</fieldset>
+	
+
+	</form>
+</body>
+
+</html>
