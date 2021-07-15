@@ -5,11 +5,12 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<title>Formulário</title>
 </head>
 
 <body>
-	<form action="" method="GET">
+	<form action="" method="GET" id="form">
 		<fieldset>
 			<legend>Dados pessoais</legend>
 			<label for="nome">Nome</label>
@@ -35,7 +36,7 @@
 				<input type="radio" name="tipo" id="casa" value="casa" required>Casa
 			</label>
 			<label for="ap">
-				<input type="radio" name="tipo" id="ap" value="apartamento" required>Apartamento
+				<input type="radio" name="tipo" id="ap" value="apartamento" required >Apartamento
 			</label>
 		</fieldset>
 		<fieldset>
@@ -50,15 +51,18 @@
 				<textarea name="cv" id="cv" cols="30" rows="10" required maxlength="500"></textarea>
 			</label>
 			<label for="data-inicio">Data de início</label>
-			<input type="text" name="data-inicio" id="data-inicio" required>
+			<input type="text" name="data-dia" id="dia" required>
+			<input type="text" name="data-mes" id="mes" required>
+			<input type="text" name="data-ano" id="ano" required>
 			<br>
-			<input type="submit" value="Enviar">
+			<input type="submit" value="Enviar" id="btn-enviar">
 			<input type="reset" value="Limpar">
-
 		</fieldset>
-	
-
 	</form>
+	<div class="show" id="show">
+		<p id="nome-show">Nome:</p>
+	</div>
+	<script src="script.js"></script>
 </body>
 
 </html>
