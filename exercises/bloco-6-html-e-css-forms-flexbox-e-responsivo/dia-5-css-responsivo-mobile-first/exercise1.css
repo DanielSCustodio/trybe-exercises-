@@ -28,6 +28,17 @@ figure {
 		margin: 10px 5%;
 	}
 
+	.images {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: end;
+		align-content: center;
+	}
+
+	figure {
+	margin: 1%;
+	flex: 0 1 40%;
+	}
 }
 
 @media screen (min-width:1256px) {
