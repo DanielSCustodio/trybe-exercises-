@@ -63,11 +63,24 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
-function authorBornIn1947() {
-  const result = books.find((indice) => indice.author.birthYear === 1947);
-  return result.author.name;
-}
+// // Adicione o código do exercício aqui:
+// function authorBornIn1947() {
+//   const result = books.find((indice) => indice.author.birthYear === 1947);
+//   return result.author.name;
+// }
 
-authorBornIn1947();
-assert.strictEqual(authorBornIn1947(), 'Stephen King');
+// assert.strictEqual(authorBornIn1947(), 'Stephen King');
+
+// function smallerName() {
+//   let nameBook;
+//   let menor = books[0].name.length;
+//   books.forEach((element) => {
+//     if (element.name.length < menor) {
+//       menor = element.name.length;
+//       nameBook = element.name;
+//     }
+//   });
+//   return nameBook;
+// }
+
+// assert.strictEqual(smallerName(), 'Duna');
