@@ -62,26 +62,11 @@ const books = [
     releaseYear: 1928,
   },
 ];
+const expectedResult = true;
 
-// // Adicione o código do exercício aqui:
-// function authorBornIn1947() {
-//   const result = books.find((indice) => indice.author.birthYear === 1947);
-//   return result.author.name;
-// }
+function someBookWasReleaseOnThe80s() {
+  const result = books.some((element) => element.releaseYear > 1980 && element.releaseYear < 1989);
+  return result;
+}
 
-// assert.strictEqual(authorBornIn1947(), 'Stephen King');
-
-// function smallerName() {
-//   let nameBook;
-//   let menor = books[0].name.length;
-//   books.forEach((element) => {
-//     if (element.name.length < menor) {
-//       menor = element.name.length;
-//       nameBook = element.name;
-//     }
-//   });
-//   return nameBook;
-// }
-// smallerName();
-
-// assert.strictEqual(smallerName(), 'Duna');
+assert.strictEqual(someBookWasReleaseOnThe80s(), expectedResult);

@@ -63,25 +63,15 @@ const books = [
   },
 ];
 
-// // Adicione o código do exercício aqui:
-// function authorBornIn1947() {
-//   const result = books.find((indice) => indice.author.birthYear === 1947);
-//   return result.author.name;
-// }
+let expectedResult = false;
 
-// assert.strictEqual(authorBornIn1947(), 'Stephen King');
-
-// function smallerName() {
-//   let nameBook;
-//   let menor = books[0].name.length;
-//   books.forEach((element) => {
-//     if (element.name.length < menor) {
-//       menor = element.name.length;
-//       nameBook = element.name;
-//     }
-//   });
-//   return nameBook;
-// }
-// smallerName();
-
-// assert.strictEqual(smallerName(), 'Duna');
+function authorUnique() {
+  let result = true;
+  books.forEach((element) => {
+    let year = element.author.birthYear;
+    books.some((comp) => comp.author.birthYear === year);
+    result = false;
+  });
+  return result;
+}
+assert.strictEqual(authorUnique(), expectedResult);
