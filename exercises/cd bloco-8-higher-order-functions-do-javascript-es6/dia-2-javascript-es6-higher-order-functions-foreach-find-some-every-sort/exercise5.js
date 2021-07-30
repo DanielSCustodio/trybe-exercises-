@@ -1,4 +1,4 @@
-onst assert = require('assert');
+const assert = require('assert');
 
 const books = [
   {
@@ -63,3 +63,11 @@ const books = [
   },
 ];
 
+const expectedResult = false;
+
+function everyoneWasBornOnSecXX() {
+  const result = books.every((element) => element.author.birthYear > 1901 && element.author.birthYear < 2000);
+  return result;
+}
+
+assert.strictEqual(everyoneWasBornOnSecXX(), expectedResult);
