@@ -71,17 +71,16 @@ const books = [
 
 // assert.strictEqual(authorBornIn1947(), 'Stephen King');
 
-// function smallerName() {
-//   let nameBook;
-//   let menor = books[0].name.length;
-//   books.forEach((element) => {
-//     if (element.name.length < menor) {
-//       menor = element.name.length;
-//       nameBook = element.name;
-//     }
-//   });
-//   return nameBook;
-// }
-// smallerName();
+function smallerName() {
+  let nameBook;
+  let menor = books[0].name.length;
+  books.forEach((element) => {
+    if (element.name.length < menor) {
+      menor = element.name.length;
+      nameBook = element.name;
+    }
+  });
+  return nameBook;
+}
 
-// assert.strictEqual(smallerName(), 'Duna');
+assert.strictEqual(smallerName(), 'Duna');
