@@ -34,3 +34,21 @@ describe(' Verifique o resultado da função getUserName para o caso em que o us
     })//getUserName;
   })//Test
 })//Describe
+
+describe('Verifique se o usuário existe ou não no banco de dados usando async/await', () => {
+  it('Verifique se o usuário existe no banco de dados usando async/await', async () => {
+    expect.assertions(1);
+    const resposta = await findUserById(2);
+    expect(resposta).toStrictEqual({ id: 2, name: 'Paul' });
+  });//it
+
+  it('Verifique se o usuário não existe no banco de dados', async () => {
+    const id = 3;
+    expect.assertions(1);
+    try {
+      const resposta = await findUserById(id);
+    } catch (error) {
+      expect(error).toStrictEqual(Error(`User with ${id} not found.`));
+    }
+  });//it
+});//Describe
