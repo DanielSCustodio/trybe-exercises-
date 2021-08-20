@@ -1,4 +1,5 @@
 node_modules
+node_modules/
 /home/daniel/trybe-exercises/exercises/bloco-10-testes-automatizados-com-jest/dia-2-jest-testes-assincronos/node_modules
 ../dia-1-primeiros-passos-no-jest/node_modules/exercises/bloco-10-testes-automatizados-com-jest/dia-1-primeiros-passos-no-jest/node_modules/
 exercises/bloco-10-testes-automatizados-com-jest/dia-2-jest-testes-assincronos/node_modules/
