@@ -1,0 +1,10 @@
+npm install --save-dev jest
+
+
+package.json
+
+{
+  "scripts": {
+    "test": "jest"
+  }
+}
