@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pokedex{
+  background-color: rgb(39, 37, 37);
+}
+.card-Pokemon{
+  width: 150px;
+  border: 1px solid #788579;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.card-Pokemon:hover{
+  background: rgb(227,38,12);
+  background: linear-gradient(315deg, rgba(227,38,12,1) 14%, rgba(226,211,41,0.6783088235294117) 100%);
+}
+
