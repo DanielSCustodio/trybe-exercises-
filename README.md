@@ -1,4 +1,4 @@
-#Repositório dos exercícios feitos  na Trybe.
+Repositório dos exercícios feitos  na Trybe.
 
 
 
