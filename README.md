@@ -1,4 +1,4 @@
-Repositório de alguns exercícios realizados na Trybe.
+Repositório de exercícios realizados na Trybe.
 
 
 
